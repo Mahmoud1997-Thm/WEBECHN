@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-image: url('Geld.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.atm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    background-color: #4a4c3f;
+    border: 2px solid #d3d6061a;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.screen {
+    position: relative;
+}
+
+.atm-image {
+    max-width: 100%;
+    height: 50%;
+    border: 4px solid #a0a0a0;
+    border-radius: 5px;
+    margin-top: 22px;
+  
+    margin-bottom: 24px;
+    filter: grayscale(200%);
+}
+
+.center-container {
+    position: relative;
+}
+
+.centered-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.centered-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.input-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: #fff;
+    padding: 15px;
+    border: 2px solid #a0a0a0;
+    border-radius: 5px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.Nachname,
+.Vorname,
+.Email-Adresse,
+.Telefon,
+.Adresse,
+.PLZ,
+.Geburtsdatum {
+    flex-basis: 50%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.buttons-container {
+    margin-top: 20px;
+}
+
+.button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.button:nth-child(1) {
+    background-color: #ffd700;
+}
+
+.button:nth-child(2) {
+    background-color: #5cb85c;
+}
+
+.button:nth-child(3) {
+    background-color: #d9534f;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.keyboard {
+    margin-top: 20px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.keyboard-button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.keyboard-button:hover {
+    background-color: #0056b3;
+}
